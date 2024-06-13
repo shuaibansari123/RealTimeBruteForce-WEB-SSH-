@@ -5,7 +5,6 @@ import aiohttp
 import paramiko
 import json
 
-
 app = FastAPI()
 
 class LoginData(BaseModel):
